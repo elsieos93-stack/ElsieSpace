@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#F2F0ED"/><text x="50" y="62" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#1A1918">ES</text></svg></template>
+<title>Elsie Space · Depilación facial con hilo · Lomas de Chapultepec</title>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:var(--g,#F2F0ED); color:#1A1918; font-family:'DM Sans',system-ui,sans-serif; -webkit-font-smoothing:antialiased; }
+  * { box-sizing:border-box; }
+  a { color:#1A1918; text-decoration:none; }
+  a:hover { color:var(--ac,#8B9BA6); }
+  @keyframes rise { from { opacity:0; transform:translateY(14px); } to { opacity:1; transform:none; } }
+  summary::-webkit-details-marker { display:none; }
+  details[open] > summary [data-toggle-icon] { transform:rotate(45deg); background:#4F6270; color:#F2F0ED; }
+  @keyframes marquee { from { transform:translateX(0); } to { transform:translateX(-50%); } }
+  @keyframes drift { 0% { transform:translateX(0); } 50% { transform:translateX(-22px); } 100% { transform:translateX(0); } }
+</style>
+</helmet>
+
+<div style="max-width:1180px;margin:0 auto;padding:0 28px">
+<sc-if value="{{ isEs }}" hint-placeholder-val="{{ true }}">
+
+  <header style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:28px 0;border-bottom:1px solid var(--border,#D5D3CE);flex-wrap:wrap">
+    <span style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:22px;letter-spacing:.14em;text-transform:uppercase">Elsie Space</span>
+    <nav style="display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px;font-size:12.5px;font-weight:400;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">
+      <a href="#sobre">Sobre mí</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+      <span style="display:flex;align-items:center;gap:10px;padding-left:20px;border-left:1px solid var(--border,#D5D3CE)"><button onClick="{{ setEs }}" aria-pressed="true" style="background:none;border:0;border-bottom:1px solid #1A1918;padding:4px 0;font:inherit;letter-spacing:inherit;text-transform:inherit;color:#1A1918;cursor:pointer" style-hover="color:#1A1918">ES</button><button onClick="{{ setEn }}" aria-pressed="false" style="background:none;border:0;border-bottom:1px solid transparent;padding:4px 0;font:inherit;letter-spacing:inherit;text-transform:inherit;color:#6C6B67;cursor:pointer" style-hover="color:#1A1918">EN</button></span>
+    </nav>
+  </header>
+
+  <sc-if value="{{ movimiento }}" hint-placeholder-val="{{ true }}">
+    <div style="overflow:hidden;white-space:nowrap;border-bottom:1px solid var(--border,#D5D3CE);padding:13px 0">
+      <div style="display:inline-flex;gap:40px;will-change:transform;animation:{{ animStyle }}">
+        <span style="font-size:13px;font-weight:500;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:#4F6270">{{ textoMovil }}</span>
+        <span style="font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--nude,#B5A593)">·</span>
+        <span style="font-size:13px;font-weight:500;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:#4F6270">{{ textoMovil }}</span>
+        <span style="font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--nude,#B5A593)">·</span>
+        <span style="font-size:13px;font-weight:500;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:#4F6270">{{ textoMovil }}</span>
+        <span style="font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--nude,#B5A593)">·</span>
+        <span style="font-size:13px;font-weight:500;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:#4F6270">{{ textoMovil }}</span>
+        <span style="font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--nude,#B5A593)">·</span>
+      </div>
+    </div>
+  </sc-if>
+
+  <section style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));align-items:center;gap:clamp(20px,4vw,56px);padding:clamp(40px,7vw,96px) 0 clamp(48px,7vw,88px);animation:rise .8s ease both">
+   <div>
+    <sc-if value="{{ taglineEstatica }}" hint-placeholder-val="{{ true }}">
+      <p style="margin:0 0 clamp(28px,5vw,52px);font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">Especialista en depilación facial con hilo · Lomas de Chapultepec, CDMX</p>
+    </sc-if>
+    <h1 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(44px,7.8vw,104px);line-height:.95;white-space:nowrap;letter-spacing:var(--tracking,-.03em)">Elsie <span style="font-style:italic">Space</span></h1>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:clamp(24px,4vw,56px);margin-top:clamp(32px,5vw,56px);align-items:end">
+      <p style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(28px,3.6vw,46px);line-height:1.18;text-wrap:pretty">Bienvenida a tu safe space, donde el cuidado, detalle y precisión,&nbsp;<br><span style="font-style: italic; color: rgb(108, 107, 103);">son los protagonistas en acción.&nbsp;</span></p>
+      <p style="margin:0;font-size:14px;line-height:1.9;color:#6C6B67;border-left:1px solid var(--border,#D5D3CE);padding-left:20px">Lomas de Chapultepec, CDMX<br><br></p>
+    </div>
+   </div>
+   <div style="display:flex;align-items:center;justify-content:center">
+     <img src="hero-hilo.jpg" alt="Depilación de cejas con hilo" style="width:auto;max-width:100%;height:auto;max-height:82vh;display:block;border:1px solid var(--border,#D5D3CE)">
+   </div>
+  </section>
+
+  <section style="position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));align-items:center;gap:clamp(16px,3vw,40px);padding:clamp(8px,2vw,24px) 0 clamp(40px,6vw,80px)">
+    <div style="display:flex;flex-direction:column;gap:18px;max-width:42ch">
+    </div>
+  </section>
+
+  <section id="sobre" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:clamp(32px,6vw,80px);align-items:start;padding:clamp(64px,10vw,140px) 0;scroll-margin-top:24px">
+    <div style="display:flex;flex-direction:column;gap:clamp(24px,3vw,36px)">
+      <p style="margin:0 0 -8px;font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">Sobre mí</p>
+      <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(34px,4.6vw,58px);line-height:1.1;letter-spacing:-.01em;text-wrap:pretty">Cada rostro,&nbsp;<br><span style="font-style: italic;">un lienzo único.</span></h2><img src="sobre-mi-web.jpg" alt="gemini_generated_image_4654tl4654tl4654-" width="768" height="1370" style="width:100%;max-width:420px;height:auto;aspect-ratio:4/5;display:block;object-fit:cover;object-position:50% 30%;border:1px solid var(--border,#D5D3CE)">
+    </div>
+    <div style="display:flex;flex-direction:column;gap:20px;font-size:15.5px;line-height:1.85;color:#3F3E3B;max-width:58ch;padding-top:clamp(0px,3.2vw,38px)">
+      <div style="margin:0"><blockquote data-path-to-node="6" style="margin:0;display:flex;flex-direction:column;gap:18px"><div data-path-to-node="6,0" style="display:flex;flex-direction:column;gap:18px"><p data-path-to-node="13,3" style="margin:0">Mi filosofía es simple: <b data-path-to-node="13,3" data-index-in-node="24">realzar tu belleza natural sin alterar tu esencia</b>.</p><p data-path-to-node="13,4" style="margin:0">Me especializo en técnicas avanzadas de <i data-path-to-node="13,4" data-index-in-node="40">Threading, Lashes &amp; Brows</i>. Mi enfoque prioriza la salud de tu piel y la armonía facial mediante procedimientos indoloros, no invasivos y minuciosos.</p><p data-path-to-node="13,5" style="margin:0">Mi especialidad es la <b>depilación facial con hilo</b>: cejas, labio superior, mentón, mejillas, patillas, frente o rostro completo. La complemento con el exclusivo <b>Lash Lift Coreano</b> y el <b>Laminado de Cejas (K-Brow Lami)</b>. También realizo maquillaje semipermanente: <b>Baby Lips</b>, <b>Microblading</b> y <b>Delineado Invisible</b>.</p><p data-path-to-node="13,6" style="margin:0">Mi objetivo es crear resultados sutiles, elegantes y orgánicos: <b data-path-to-node="13,6" data-index-in-node="64">esos que se notan, pero nadie adivina.</b></p></div><p data-path-to-node="6,1" style="margin:0;padding-top:18px;border-top:1px solid var(--border,#D5D3CE);font-size:14px;color:#6C6B67"><i data-path-to-node="6,1" data-index-in-node="0">Atención personalizada previa cita en&nbsp;&nbsp;<a href="https://www.google.com/maps/search/?api=1&amp;query=Beauty+Bar+by+Ximena+Lomas+de+Chapultepec+CDMX" target="_blank" rel="noopener" style="color: rgb(79, 98, 112); text-decoration: underline; text-underline-offset: 3px;">Beauty Bar by Ximena, en Lomas de Chapultepec</a>, CDMX.</i></p></blockquote></div><p style="margin:6px 0 0;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;color:var(--nude,#B5A593)">— Elsie</p>
+      
+      
+      
+    </div>
+  </section>
+
+  <section id="servicios" style="padding:0 0 clamp(64px,10vw,130px);scroll-margin-top:24px">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;margin:0 0 clamp(28px,4vw,44px)"><p style="margin:0;font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">Servicios</p><p style="margin:0;font-size:12.5px;color:#6C6B67">Precios en MXN</p></div>
+
+    <article style="display:flex;flex-direction:column;gap:clamp(28px,4vw,48px);padding:clamp(28px,4vw,44px) 0 clamp(36px,5vw,56px);border-top:1px solid var(--border,#D5D3CE)">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:clamp(20px,4vw,64px)">
+        <div><p style="margin:0 0 12px;font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--nude,#B5A593);letter-spacing:.06em">I</p><h3 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(30px,3.6vw,44px);line-height:1.12">Depilación facial con hilo</h3><p style="margin:8px 0 0;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#6C6B67">Nuestra especialidad · Facial Threading</p></div>
+        <div style="display:flex;flex-direction:column;gap:16px"><p style="margin:0;font-size:15.5px;line-height:1.85;color:#3F3E3B;max-width:52ch">Técnica ancestral que retira el vello desde la raíz con un hilo 100% algodón. Precisión milimétrica para diseñar cejas y limpiar cada zona del rostro. Libre de alergias. Sin cera, sin químicos, ideal para piel sensible.</p><p style="margin:0;font-size:13px;line-height:1.85;color:#6C6B67;font-style:italic">Duración aprox. 15–45 min, según las zonas<br>Para mantener el resultado, regresa cada 3–4 semanas.</p></div>
+      </div>
+      <details style="border-top:1px solid var(--border,#D5D3CE);border-bottom:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:#1A1918">Ver precios por área</span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div style="display:flex;flex-direction:column;gap:14px;padding:4px 0 24px">
+          <dl style="margin:0;display:flex;flex-direction:column;border-bottom:1px solid var(--border,#D5D3CE);max-width:560px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Cejas</dt><dd style="margin:0;font-size:15px">$600</dd></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Labio superior</dt><dd style="margin:0;font-size:15px">$250</dd></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Mentón</dt><dd style="margin:0;font-size:15px">$250</dd></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Mejillas</dt><dd style="margin:0;font-size:15px">$350</dd></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Patillas</dt><dd style="margin:0;font-size:15px">$250</dd></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Frente</dt><dd style="margin:0;font-size:15px">$200</dd></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#1A1918">Rostro completo</dt><dd style="margin:0;font-size:17px;display:flex;align-items:baseline;gap:10px"><s style="font-size:13px;color:#6C6B67">$1,900</s><span>$1,700</span></dd></div>
+          </dl>
+          <p style="margin:0;font-size:13px;line-height:1.85;color:#6C6B67;font-style:italic">Nota: precio único, no aplica descuento por pago en efectivo.</p>
+        </div>
+      </details>
+      <div style="display:flex;justify-content:flex-start"><a href="https://wa.me/525532720693?text=Hola%20Elsie%2C%20quiero%20agendar%20depilaci%C3%B3n%20con%20hilo" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 32px;background:#1A1918;color:var(--g,#F2F0ED);font-size:13px;letter-spacing:.16em;text-transform:uppercase" style-hover="background:#4F6270;color:#F2F0ED">Agendar depilación con hilo →</a></div>
+    </article>
+
+    <article style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:clamp(20px,4vw,64px);padding:clamp(28px,4vw,44px) 0;border-top:1px solid var(--border,#D5D3CE)"><div><p style="margin:0 0 12px;font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--nude,#B5A593);letter-spacing:.06em">II</p><h3 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(30px,3.6vw,44px);line-height:1.12">Korean Lash Lift</h3><p style="margin:8px 0 0;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#6C6B67">Lifting de pestañas con nutrición profunda (fórmula coreana)</p></div>
+      <div style="display:flex;flex-direction:column;gap:16px"><p style="margin:0;font-size:15.5px;line-height:1.85;color:#3F3E3B;max-width:52ch">Tratamiento exclusivo de elevación y entintado que cuida la estructura natural de tus pestañas. Formulado con queratina, aloe vera y pantenol para aportar máxima elasticidad, brillo y volumen.</p><p style="margin:0;font-size:13px;line-height:1.85;color:#6C6B67;font-style:italic">Duración aprox. 80 min<br>Duración del resultado: 6 a 8 semanas</p><img src="lash-lift-resultado-web.jpg" alt="Resultado de Korean Lash Lift" style="align-self:flex-end;width:100%;max-width:260px;aspect-ratio:4/5;object-fit:cover;object-position:55% 42%;display:block;border:1px solid var(--border,#D5D3CE)"></div>
+      <div style="display:flex;flex-direction:column;gap:12px"><dl style="margin:0;display:flex;flex-direction:column;border-bottom:1px solid var(--border,#D5D3CE)"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Tarjeta</dt><dd style="margin:0;font-size:15px"><span style="display:flex;align-items:baseline;gap:10px"><span>$1,800 MXN</span><span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#1A1918;border:1px solid var(--border,#D5D3CE);padding:3px 7px">3 MSI</span></span></dd></div><div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Efectivo</dt><dd style="margin:0;font-size:15px">$1,620 MXN</dd></div></dl><p style="margin:0;font-size:13px;line-height:1.85;color:#6C6B67;font-style:italic">Evita agua y vapor las primeras 24 horas. Pago en efectivo con 10% de descuento. 3 MSI solo con tarjetas de crédito mexicanas participantes.</p></div></article>
+
+    <article style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:clamp(20px,4vw,64px);padding:clamp(28px,4vw,44px) 0;border-top:1px solid var(--border,#D5D3CE);border-bottom:1px solid var(--border,#D5D3CE)"><div><p style="margin:0 0 12px;font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--nude,#B5A593);letter-spacing:.06em">III</p><h3 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(30px,3.6vw,44px);line-height:1.12">Brow Lamination</h3><p style="margin:8px 0 0;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#6C6B67">Laminado e hidratación de cejas</p></div>
+      <div style="display:flex;flex-direction:column;gap:16px"><p style="margin:0;font-size:15.5px;line-height:1.85;color:#3F3E3B;max-width:52ch">Rediseña y disciplina la dirección del pelo para lograr cejas con mayor densidad, fijación y definición natural sin maltratar la fibra capilar.</p><p style="margin:0;font-size:13px;line-height:1.85;color:#6C6B67;font-style:italic">Duración aprox. 75 min<br>Efecto: cejas peinadas y definidas por 4 a 6 semanas.</p><img src="brow-lami-resultado.jpeg" alt="Resultado de Brow Lamination" style="align-self:flex-end;width:100%;max-width:260px;aspect-ratio:4/5;object-fit:cover;object-position:45% 50%;display:block;border:1px solid var(--border,#D5D3CE)"></div>
+      <div style="display:flex;flex-direction:column;gap:12px"><dl style="margin:0;display:flex;flex-direction:column;border-bottom:1px solid var(--border,#D5D3CE)"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Tarjeta</dt><dd style="margin:0;font-size:15px"><span style="display:flex;align-items:baseline;gap:10px"><span>$1,600 MXN</span><span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#1A1918;border:1px solid var(--border,#D5D3CE);padding:3px 7px">3 MSI</span></span></dd></div><div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Efectivo</dt><dd style="margin:0;font-size:15px">$1,440 MXN</dd></div></dl><p style="margin:0;font-size:13px;line-height:1.85;color:#6C6B67;font-style:italic">Pago en efectivo con 10% de descuento. 3 MSI solo con tarjetas de crédito mexicanas participantes.</p></div></article>
+
+
+    <div style="display:flex;justify-content:flex-start;padding-top:clamp(28px,4vw,44px)">
+      <a href="https://wa.me/525532720693?text=Hola%20Elsie%2C%20quiero%20agendar%20una%20cita" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 32px;background:#1A1918;color:var(--g,#F2F0ED);font-size:13px;letter-spacing:.16em;text-transform:uppercase" style-hover="background:#4F6270;color:#F2F0ED">Agendar por WhatsApp →</a>
+    </div>
+  </section>
+
+  <section style="padding:0 0 clamp(64px,10vw,130px)">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;margin:0 0 clamp(20px,3vw,32px)">
+      <p style="margin:0;font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">También realizo · Maquillaje semipermanente</p>
+      <p style="margin:0;font-size:12.5px;color:#6C6B67">Toca cada servicio (+) para ver precio y detalles</p>
+    </div>
+
+    <details style="border-top:1px solid var(--border,#D5D3CE)">
+      <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+        <span style="display:flex;align-items:baseline;gap:16px">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">IV</span>
+          <span style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(22px,2.4vw,30px);line-height:1.15"><b><b><span style="font-weight: normal;">Micropigmentación Labial</span></b></b><br><b>Baby Lips</b></span>
+        </span>
+        <span style="display:flex;align-items:center;gap:14px;flex:none">
+          <span style="font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:#6C6B67;white-space:nowrap">Semipermanente</span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </span>
+      </summary>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:clamp(18px,3vw,48px);padding:0 0 28px">
+        <p style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:50ch">Tratamiento para definir,&nbsp;agregar frescura y color a los labios con duración de 18 a 24 meses. Mi gama de pigmentos y colores me permite personalizar cada procedimiento que siempre esta basado en tu propia colorimetría para lograr un resultado natural.</p>
+        <dl style="margin:0;display:flex;flex-direction:column">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Tarjeta</dt>
+            <dd style="margin:0;font-size:15px;display:flex;align-items:baseline;flex-wrap:wrap;justify-content:flex-end;gap:10px"><span>$10,000 MXN</span><span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#1A1918;border:1px solid var(--border,#D5D3CE);padding:3px 7px">3 MSI</span></dd>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Efectivo</dt>
+            <dd style="margin:0;font-size:15px;display:flex;align-items:baseline;gap:10px"><span>$9,000 MXN</span></dd>
+          </div>
+          <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Duración</dt>
+            <dd style="margin:0;font-size:15px">2.5–3 h</dd>
+          </div>
+          <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Retoque</dt>
+            <dd style="margin:0;font-size:15px">Incluido a las 6 semanas</dd>
+          </div>
+          <p style="margin:14px 0 0;font-size:13px;line-height:1.8;color:#6C6B67;font-style:italic">Pago en efectivo con 10% de descuento. 3 MSI (meses sin intereses) aplica solo con tarjetas de crédito mexicanas participantes.<br>Incluye sesión de diseño y prueba de tono antes de comenzar.</p>
+        </dl>
+      </div>
+    </details>
+
+    <details style="border-top:1px solid var(--border,#D5D3CE)">
+      <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+        <span style="display:flex;align-items:baseline;gap:16px">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">V</span>
+          <span style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(22px,2.4vw,30px);line-height:1.15"><b>Microblading &amp; Powder Brows</b></span>
+        </span>
+        <span style="display:flex;align-items:center;gap:14px;flex:none">
+          <span style="font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:#6C6B67;white-space:nowrap">Pelo a pelo</span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </span>
+      </summary>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:clamp(18px,3vw,48px);padding:0 0 28px">
+        <p style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:50ch">Trazo pelo a pelo que rellena zonas sin vello y corrige asimetrías. Se diseña sobre tu morfología y se pigmenta en el tono de tu propio vello.<br><br>Powder Brows - Efecto Polvo para un look más definido, tipo sombra.&nbsp;<br><br></p>
+        <dl style="margin:0;display:flex;flex-direction:column">
+          <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Tarjeta</dt>
+            <dd style="margin:0;font-size:15px;display:flex;align-items:baseline;flex-wrap:wrap;justify-content:flex-end;gap:10px"><span>$10,000 MXN</span><span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#1A1918;border:1px solid var(--border,#D5D3CE);padding:3px 7px">3 MSI</span></dd>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Efectivo</dt>
+            <dd style="margin:0;font-size:15px;display:flex;align-items:baseline;gap:10px"><span>$9,000 MXN</span></dd>
+          </div>
+          <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Duración</dt>
+            <dd style="margin:0;font-size:15px">2.5 h</dd>
+          </div>
+          <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Retoque</dt>
+            <dd style="margin:0;font-size:15px">Incluido a las 6–8 semanas</dd>
+          </div>
+          <p style="margin:14px 0 0;font-size:13px;line-height:1.8;color:#6C6B67;font-style:italic">Pago en efectivo con 10% de descuento. 3 MSI (meses sin intereses) aplica solo con tarjetas de crédito mexicanas participantes.<br>Nota: la elección de técnica esta sujeta a la valoración que se hace previa a la cita.</p>
+        </dl>
+      </div>
+    </details>
+
+    <div style="border-top:1px solid var(--border,#D5D3CE)"></div>
+  </section>
+
+  <div style="display:flex;flex-direction:column;align-items:center;gap:22px;text-align:center;padding:0 0 clamp(64px,10vw,130px);margin-top:calc(-1 * clamp(24px,5vw,70px))">
+    <p style="margin:0;font-size:15.5px;line-height:1.85;color:#3F3E3B;max-width:52ch;text-wrap:pretty">Todo tratamiento de maquillaje permanente comienza con una valoración. En ella te muestro una demostración de tu diseño ideal, personalizado según las proporciones áureas de tu rostro.</p>
+    <a href="https://wa.me/525532720693?text=Hola%20Elsie%2C%20quiero%20agendar%20una%20valoraci%C3%B3n%20de%20maquillaje%20permanente" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 32px;background:#1A1918;color:var(--g,#F2F0ED);font-size:13px;letter-spacing:.16em;text-transform:uppercase" style-hover="background:#4F6270;color:#F2F0ED">Agendar valoración →</a>
+  </div>
+
+  <section id="galeria" style="padding:0 0 clamp(64px,10vw,130px);scroll-margin-top:24px">
+    <p style="margin:0 0 clamp(24px,4vw,40px);font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">Galería <span style="color:#6C6B67;letter-spacing:.1em;text-transform:none;font-size:12.5px"></span></p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:14px">
+      <figure style="margin:0">
+        <div style="position:relative;aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="lash-lift-antes-despues-web.png" alt="Antes y después de Lash Lift" style="width:100%;height:100%;object-fit:cover;object-position:50% 45%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+          <span style="position:absolute;top:12px;left:12px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#1A1918;background:rgba(242,240,237,.92);padding:5px 9px">Antes</span>
+          <span style="position:absolute;bottom:12px;left:12px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--g,#F2F0ED);background:rgba(26,25,24,.82);padding:5px 9px">Después</span>
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Resultado<span style="color:#1A1918">K-LASH LIFT</span></figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div style="aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="./_-3--mu6ktsn8-2nia.jpeg" alt="Detalle de pestañas tras Lash Lift" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Detalle<span style="color:#1A1918">Pestañas</span></figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div style="aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="./who-did-it-best-me-or-ai_-__-laminazione-mu6lbdvh-ibs1.jpeg" alt="Laminado coreano de cejas" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Tratamiento<span style="color:#1A1918">K-LAMINADO</span></figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div style="aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="./untitled-design-2--mu7rjyqr-xcos.jpg" alt="Micropigmentación semipermanente de labios" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">LABIOS CICATRIZADOS</figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div style="aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="./gemini_generated_image_96pt2896pt2896pt-mu7i0yc7-f7k3.jpg" alt="Elsie trabajando con una clienta" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">estudio<span style="color: rgb(26, 25, 24);">Elsie Space</span></figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div style="aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="./img_8247-mu7h3is5-5fnl.jpg" alt="Epilación de cejas con hilo" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Epilación con hilo</figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div style="aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="cejas-web.jpg" alt="Cejas diseñadas y definidas" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Microblading<span style="color: rgb(26, 25, 24);">Pelo a pelo</span></figcaption>
+      </figure>
+      <figure style="margin:0;display:flex;flex-direction:column">
+        <a href="https://instagram.com/elsie.spacee" target="_blank" rel="noopener" style="position:relative;aspect-ratio:3/4;border:1px solid #1A1918;background:#1A1918;color:var(--g,#F2F0ED);display:flex;flex-direction:column;justify-content:space-between;padding:16px;overflow:hidden" style-hover="background:#2C2A28">
+          <img src="hero-modelo-web.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.42;filter:grayscale(.35)"><span style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,25,24,.72) 0%,rgba(26,25,24,.35) 45%,rgba(26,25,24,.78) 100%)"></span>
+          <span style="position:relative;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#F2F0ED">Sígueme</span>
+          <span style="position:relative;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:30px;line-height:1.1">@elsie.spacee →</span>
+        </a>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Más trabajo<span style="color:#1A1918">@elsie.spacee</span></figcaption>
+      </figure>
+    </div>
+    
+  </section>
+
+  <section id="faq" itemscope="" itemtype="https://schema.org/FAQPage" style="border-top:1px solid var(--border,#D5D3CE);padding:clamp(56px,9vw,120px) 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:clamp(32px,6vw,80px);align-items:start;scroll-margin-top:24px">
+    <div>
+      <p style="margin:0 0 22px;font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">Preguntas frecuentes</p>
+      <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(34px,4.6vw,58px);line-height:1.1;text-wrap:pretty">Dudas frecuentes <span style="font-style:italic">antes de tu visita</span></h2>
+    </div>
+    <div style="grid-column:span 1;display:flex;flex-direction:column;border-bottom:1px solid var(--border,#D5D3CE)">
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">1.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">¿Qué zonas del rostro depilas con hilo?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Cejas, labio superior, mentón, mejillas, patillas, frente o rostro completo. Puedes elegir una zona o combinar varias en la misma cita.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">2.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">¿La depilación con hilo duele? ¿Sirve para piel sensible?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Se siente como un tirón breve que desaparece en segundos. Al no usar cera ni químicos, es ideal para piel sensible o reactiva y para quienes usan retinoides o ácidos.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">3.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">¿Cada cuánto debo hacerme la depilación con hilo?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Recomendamos regresar cada 3 a 4 semanas, según tu ritmo de crecimiento. Así el diseño de tus cejas se conserva y cada zona se mantiene limpia.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">4.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">¿Cómo debo prepararme para mi cita de Lash Lift o Brow Lami?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Te recomendamos acudir con la zona de los ojos y cejas limpia, libre de maquillaje, aceites o sueros. Evita rizarte las pestañas el día de tu procedimiento y suspende el uso de ácidos o exfoliantes fuertes en la zona de las cejas durante las 48 horas previas.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">5.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">¿Cuánto dura el resultado de Lash Lift y Brow Lami?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">El Korean Lash Lift dura de 6 a 8 semanas y el Brow Lami de 4 a 6 semanas. Para cuidarlo, evita agua y vapor durante las primeras 24 horas.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">6.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">¿Puedo realizarme el Lash Lift si tengo pestañas muy cortas o sensibles?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">¡Sí! La técnica de Lifting Coreano está formulada con ingredientes altamente nutritivos como queratina, aloe vera y pantenol, diseñados para hidratar y elevar incluso las pestañas más cortas o delgadas sin causarles daño.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">7.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">¿Cuáles son los métodos de pago?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Aceptamos efectivo, transferencia y tarjetas de débito y crédito. Lash Lift y Brow Lami tienen 10% de descuento pagando en efectivo; la depilación con hilo tiene precio único.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">8.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">¿Necesito dejar un depósito para reservar?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Sí. Toda cita se confirma con un depósito de $500 MXN. Sin depósito no es posible reservar tu espacio.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">9.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">¿Qué pasa si necesito cancelar, cambiar mi cita o llego tarde?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Los cambios y cancelaciones con menos de 24 horas de anticipación, así como las inasistencias, pierden el depósito. El tiempo de tolerancia es de 15 minutos.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">10.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">¿Dónde se encuentra ubicado el estudio y hay estacionamiento?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Nos encontramos dentro de Beauty Bar, en la zona de Lomas de Chapultepec, CDMX. La zona cuenta con parquímetro que puedes recargar desde la app "Mueve Ciudad". También encontrarás un estacionamiento público en la calle trasera al estudio.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section id="contacto" style="border-top:1px solid var(--border,#D5D3CE);padding:clamp(56px,9vw,120px) 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:clamp(32px,6vw,80px);scroll-margin-top:24px">
+    <div>
+      <p style="margin:0 0 22px;font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">Contacto</p>
+      <h2 style="margin:0 0 20px;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(34px,4.6vw,58px);line-height:1.1">¿Lista para <span style="font-style:italic">tu cita?</span></h2>
+      <p style="margin:0 0 32px;font-size:15.5px;line-height:1.85;color:#3F3E3B;max-width:46ch">Reserva tu espacio directamente por WhatsApp. Actualmente mi lista de espera es de 3 semanas — te recomiendo reservar con anticipación.</p>
+      <a href="https://wa.me/525532720693?text=Hola%20Elsie%2C%20quiero%20agendar%20una%20cita" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 28px;background:#1A1918;color:var(--g,#F2F0ED);font-size:13px;letter-spacing:.16em;text-transform:uppercase" style-hover="background:var(--ac,#8B9BA6);color:#1A1918">Agendar por WhatsApp →</a>
+    </div>
+    
+    <dl style="margin:0 0 0 auto;width:100%;max-width:440px;align-self:end;display:flex;flex-direction:column">
+      <div style="display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-top:1px solid var(--border,#D5D3CE)">
+        <dt style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#6C6B67">WhatsApp</dt>
+        <dd style="margin:0;font-size:15px"><a href="https://wa.me/525532720693" target="_blank" rel="noopener">+52 55 3272 0693</a></dd>
+      </div>
+      <div style="display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-top:1px solid var(--border,#D5D3CE)">
+        <dt style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#6C6B67">Instagram</dt>
+        <dd style="margin:0;font-size:15px"><a href="https://instagram.com/elsie.spacee" target="_blank" rel="noopener">@elsie.spacee</a></dd>
+      </div>
+      <div style="display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-top:1px solid var(--border,#D5D3CE);border-bottom:1px solid var(--border,#D5D3CE)">
+        <dt style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#6C6B67">Estudio</dt>
+        <dd style="margin:0;font-size:15px;text-align:right">Lomas de Chapultepec · CDMX</dd>
+      </div>
+    </dl><div style="grid-column:1/-1;display:flex;flex-direction:column;gap:10px">
+      <div style="position:relative;aspect-ratio:16/7;min-height:280px;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+        <iframe src="https://www.google.com/maps?q=Beauty+Bar+by+Ximena,+Lomas+de+Chapultepec,+CDMX&amp;z=15&amp;output=embed" title="Mapa: Beauty Bar by Ximena, Lomas de Chapultepec" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(.55) contrast(1.02)"></iframe>
+      </div>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Beauty+Bar+by+Ximena+Lomas+de+Chapultepec+CDMX" target="_blank" rel="noopener" style="align-self:flex-start;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#4F6270">Cómo llegar →</a>
+    </div>
+  </section>
+
+<sc-if value="{{ lbOpen }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ lbClose }}" style="position:fixed;inset:0;z-index:100;background:rgba(26,25,24,.92);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:clamp(16px,4vw,48px);animation:rise .35s ease both">
+      <div role="img" aria-label="{{ lbAlt }}" onClick="{{ stop }}" style="width:min(100%,900px);height:78vh;background-image:{{ lbBg }};background-size:contain;background-position:center;background-repeat:no-repeat"></div>
+      <div onClick="{{ stop }}" style="display:flex;align-items:center;gap:18px;color:#F2F0ED">
+        <button onClick="{{ lbPrev }}" aria-label="Anterior" style="width:44px;height:44px;border-radius:50%;border:1px solid rgba(242,240,237,.5);background:transparent;color:#F2F0ED;font-size:18px;cursor:pointer" style-hover="background:rgba(242,240,237,.12)">←</button>
+        <span style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;min-width:180px;text-align:center">{{ lbCaption }} · {{ lbPos }}</span>
+        <button onClick="{{ lbNext }}" aria-label="Siguiente" style="width:44px;height:44px;border-radius:50%;border:1px solid rgba(242,240,237,.5);background:transparent;color:#F2F0ED;font-size:18px;cursor:pointer" style-hover="background:rgba(242,240,237,.12)">→</button>
+      </div>
+      <button onClick="{{ lbClose }}" aria-label="Cerrar" style="position:absolute;top:18px;right:18px;width:44px;height:44px;border-radius:50%;border:1px solid rgba(242,240,237,.5);background:transparent;color:#F2F0ED;font-size:18px;cursor:pointer">×</button>
+    </div>
+  </sc-if>
+
+  <footer style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding:28px 0 44px;border-top:1px solid var(--border,#D5D3CE)">
+    <span style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:20px;letter-spacing:.14em;text-transform:uppercase">Elsie Space</span>
+    <span style="font-size:12px;letter-spacing:.08em;color:#6C6B67">© 2026 · Lomas de Chapultepec, CDMX · Todos los derechos reservados</span>
+    <span style="flex-basis:100%;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6C6B67;text-align:center"><br></span>
+  </footer>
+
+</sc-if>
+<sc-if value="{{ isEn }}" hint-placeholder-val="{{ false }}">
+
+  <header style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:28px 0;border-bottom:1px solid var(--border,#D5D3CE);flex-wrap:wrap">
+    <span style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:22px;letter-spacing:.14em;text-transform:uppercase">Elsie Space</span>
+    <nav style="display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px;font-size:12.5px;font-weight:400;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">
+      <a href="#sobre">About</a>
+      <a href="#servicios">Services</a>
+      <a href="#galeria">Gallery</a>
+      <a href="#contacto">Contact</a>
+      <span style="display:flex;align-items:center;gap:10px;padding-left:20px;border-left:1px solid var(--border,#D5D3CE)"><button onClick="{{ setEs }}" aria-pressed="false" style="background:none;border:0;border-bottom:1px solid transparent;padding:4px 0;font:inherit;letter-spacing:inherit;text-transform:inherit;color:#6C6B67;cursor:pointer" style-hover="color:#1A1918">ES</button><button onClick="{{ setEn }}" aria-pressed="true" style="background:none;border:0;border-bottom:1px solid #1A1918;padding:4px 0;font:inherit;letter-spacing:inherit;text-transform:inherit;color:#1A1918;cursor:pointer" style-hover="color:#1A1918">EN</button></span>
+    </nav>
+  </header>
+
+  <sc-if value="{{ movimiento }}" hint-placeholder-val="{{ true }}">
+    <div style="overflow:hidden;white-space:nowrap;border-bottom:1px solid var(--border,#D5D3CE);padding:13px 0">
+      <div style="display:inline-flex;gap:40px;will-change:transform;animation:{{ animStyle }}">
+        <span style="font-size:13px;font-weight:500;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:#4F6270">{{ textoMovilEn }}</span>
+        <span style="font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--nude,#B5A593)">·</span>
+        <span style="font-size:13px;font-weight:500;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:#4F6270">{{ textoMovilEn }}</span>
+        <span style="font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--nude,#B5A593)">·</span>
+        <span style="font-size:13px;font-weight:500;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:#4F6270">{{ textoMovilEn }}</span>
+        <span style="font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--nude,#B5A593)">·</span>
+        <span style="font-size:13px;font-weight:500;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:#4F6270">{{ textoMovilEn }}</span>
+        <span style="font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--nude,#B5A593)">·</span>
+      </div>
+    </div>
+  </sc-if>
+
+  <section style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));align-items:center;gap:clamp(20px,4vw,56px);padding:clamp(40px,7vw,96px) 0 clamp(48px,7vw,88px);animation:rise .8s ease both">
+   <div>
+    <sc-if value="{{ taglineEstatica }}" hint-placeholder-val="{{ true }}">
+      <p style="margin:0 0 clamp(28px,5vw,52px);font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">Facial threading specialist · Lomas de Chapultepec, Mexico City</p>
+    </sc-if>
+    <h1 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(44px,7.8vw,104px);line-height:.95;white-space:nowrap;letter-spacing:var(--tracking,-.03em)">Elsie <span style="font-style:italic">Space</span></h1>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:clamp(24px,4vw,56px);margin-top:clamp(32px,5vw,56px);align-items:end">
+      <p style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(28px,3.6vw,46px);line-height:1.18;text-wrap:pretty">Welcome to a private, serene space for <b>facial threading</b>&nbsp;<br><span style="font-style: italic; color: rgb(108, 107, 103);">done with precision</span></p>
+      <p style="margin:0;font-size:14px;line-height:1.9;color:#6C6B67;border-left:1px solid var(--border,#D5D3CE);padding-left:20px">Lomas de Chapultepec, Mexico City<br><br></p>
+    </div>
+   </div>
+   <div style="display:flex;align-items:center;justify-content:center">
+     <img src="hero-hilo.jpg" alt="Brow threading" style="width:auto;max-width:100%;height:auto;max-height:82vh;display:block;border:1px solid var(--border,#D5D3CE)">
+   </div>
+  </section>
+
+  <section style="position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));align-items:center;gap:clamp(16px,3vw,40px);padding:clamp(8px,2vw,24px) 0 clamp(40px,6vw,80px)">
+    <div style="display:flex;flex-direction:column;gap:18px;max-width:42ch">
+    </div>
+  </section>
+
+  <section id="sobre" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:clamp(32px,6vw,80px);align-items:start;padding:clamp(64px,10vw,140px) 0;scroll-margin-top:24px">
+    <div style="display:flex;flex-direction:column;gap:clamp(24px,3vw,36px)">
+      <p style="margin:0 0 -8px;font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">About</p>
+      <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(34px,4.6vw,58px);line-height:1.1;letter-spacing:-.01em;text-wrap:pretty">Every face,&nbsp;<br><span style="font-style: italic;">a singular canvas.</span></h2><img src="sobre-mi-web.jpg" alt="gemini_generated_image_4654tl4654tl4654-" width="768" height="1370" style="width:100%;max-width:420px;height:auto;aspect-ratio:4/5;display:block;object-fit:cover;object-position:50% 30%;border:1px solid var(--border,#D5D3CE)">
+    </div>
+    <div style="display:flex;flex-direction:column;gap:20px;font-size:15.5px;line-height:1.85;color:#3F3E3B;max-width:58ch;padding-top:clamp(0px,3.2vw,38px)">
+      <div style="margin:0"><blockquote data-path-to-node="6" style="margin:0;display:flex;flex-direction:column;gap:18px"><div data-path-to-node="6,0" style="display:flex;flex-direction:column;gap:18px"><p data-path-to-node="13,3" style="margin:0">My philosophy is simple: <b data-path-to-node="13,3" data-index-in-node="24">enhance your natural beauty without altering your essence</b>.</p><p data-path-to-node="13,4" style="margin:0">I specialize in advanced <i data-path-to-node="13,4" data-index-in-node="40">Threading, Lashes &amp; Brows</i>. My approach puts the health of your skin and facial harmony first, through painless, non-invasive and meticulous procedures.</p><p data-path-to-node="13,5" style="margin:0">My specialty is <b>facial threading</b>: brows, upper lip, chin, cheeks, sideburns, forehead or full face. I complement it with the exclusive <b>Korean Lash Lift</b> and <b>Korean Brow Lamination (K-Brow Lami)</b>. I also offer semi-permanent makeup: <b>Lip Blush</b>, <b>Microblading</b> and <b>Lash Line Enhancement</b>.</p><p data-path-to-node="13,6" style="margin:0">My aim is to create results that are subtle, elegant and organic: <b data-path-to-node="13,6" data-index-in-node="64">noticed by everyone, guessed by no one.</b></p></div><p data-path-to-node="6,1" style="margin:0;padding-top:18px;border-top:1px solid var(--border,#D5D3CE);font-size:14px;color:#6C6B67"><i data-path-to-node="6,1" data-index-in-node="0">Private service, by appointment only, at&nbsp;&nbsp;<a href="https://www.google.com/maps/search/?api=1&amp;query=Beauty+Bar+by+Ximena+Lomas+de+Chapultepec+CDMX" target="_blank" rel="noopener" style="color: rgb(79, 98, 112); text-decoration: underline; text-underline-offset: 3px;">Beauty Bar by Ximena, Lomas de Chapultepec</a>, Mexico City.</i></p></blockquote></div><p style="margin:6px 0 0;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;color:var(--nude,#B5A593)">— Elsie</p>
+      
+      
+      
+    </div>
+  </section>
+
+  <section id="servicios" style="padding:0 0 clamp(64px,10vw,130px);scroll-margin-top:24px">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;margin:0 0 clamp(28px,4vw,44px)"><p style="margin:0;font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">Services</p><p style="margin:0;font-size:12.5px;color:#6C6B67">Prices in MXN</p></div>
+
+    <article style="display:flex;flex-direction:column;gap:clamp(28px,4vw,48px);padding:clamp(28px,4vw,44px) 0 clamp(36px,5vw,56px);border-top:1px solid var(--border,#D5D3CE)">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:clamp(20px,4vw,64px)">
+        <div><p style="margin:0 0 12px;font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--nude,#B5A593);letter-spacing:.06em">I</p><h3 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(30px,3.6vw,44px);line-height:1.12">Facial Threading</h3><p style="margin:8px 0 0;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#6C6B67">Our specialty · Depilación con hilo</p></div>
+        <div style="display:flex;flex-direction:column;gap:16px"><p style="margin:0;font-size:15.5px;line-height:1.85;color:#3F3E3B;max-width:52ch">A time-honored technique that removes hair from the root with a 100% cotton thread. Precise brow shaping and clean detail work on every area of the face. Hypoallergenic, with no wax and no chemicals, ideal for sensitive skin.</p><p style="margin:0;font-size:13px;line-height:1.85;color:#6C6B67;font-style:italic">Approx. 15–45 min, depending on the areas<br>To keep the result, come back every 3–4 weeks.</p></div>
+      </div>
+      <details style="border-top:1px solid var(--border,#D5D3CE);border-bottom:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:#1A1918">View prices by area</span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div style="display:flex;flex-direction:column;gap:14px;padding:4px 0 24px">
+          <dl style="margin:0;display:flex;flex-direction:column;border-bottom:1px solid var(--border,#D5D3CE);max-width:560px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Brows</dt><dd style="margin:0;font-size:15px">$600</dd></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Upper lip</dt><dd style="margin:0;font-size:15px">$250</dd></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Chin</dt><dd style="margin:0;font-size:15px">$250</dd></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Cheeks</dt><dd style="margin:0;font-size:15px">$350</dd></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Sideburns</dt><dd style="margin:0;font-size:15px">$250</dd></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Forehead</dt><dd style="margin:0;font-size:15px">$200</dd></div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#1A1918">Full face</dt><dd style="margin:0;font-size:17px;display:flex;align-items:baseline;gap:10px"><s style="font-size:13px;color:#6C6B67">$1,900</s><span>$1,700</span></dd></div>
+          </dl>
+          <p style="margin:0;font-size:13px;line-height:1.85;color:#6C6B67;font-style:italic">Note: single price, the cash discount does not apply.</p>
+        </div>
+      </details>
+      <div style="display:flex;justify-content:flex-start"><a href="https://wa.me/525532720693?text=Hi%20Elsie%2C%20I%E2%80%99d%20like%20to%20book%20a%20threading%20appointment" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 32px;background:#1A1918;color:var(--g,#F2F0ED);font-size:13px;letter-spacing:.16em;text-transform:uppercase" style-hover="background:#4F6270;color:#F2F0ED">Book threading →</a></div>
+    </article>
+
+    <article style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:clamp(20px,4vw,64px);padding:clamp(28px,4vw,44px) 0;border-top:1px solid var(--border,#D5D3CE)"><div><p style="margin:0 0 12px;font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--nude,#B5A593);letter-spacing:.06em">II</p><h3 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(30px,3.6vw,44px);line-height:1.12">Korean Lash Lift</h3><p style="margin:8px 0 0;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#6C6B67">Lash lift with deep nourishment (Korean formula)</p></div>
+      <div style="display:flex;flex-direction:column;gap:16px"><p style="margin:0;font-size:15.5px;line-height:1.85;color:#3F3E3B;max-width:52ch">An exclusive lift and tint treatment that protects the natural structure of your lashes. Formulated with keratin, aloe vera and panthenol for maximum flexibility, shine and volume.</p><p style="margin:0;font-size:13px;line-height:1.85;color:#6C6B67;font-style:italic">Approx. 80 min<br>Results last 6 to 8 weeks</p><img src="lash-lift-resultado-web.jpg" alt="Korean Lash Lift result" style="align-self:flex-end;width:100%;max-width:260px;aspect-ratio:4/5;object-fit:cover;object-position:55% 42%;display:block;border:1px solid var(--border,#D5D3CE)"></div>
+      <div style="display:flex;flex-direction:column;gap:12px"><dl style="margin:0;display:flex;flex-direction:column;border-bottom:1px solid var(--border,#D5D3CE)"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Card</dt><dd style="margin:0;font-size:15px"><span style="display:flex;align-items:baseline;gap:10px"><span>$1,800 MXN</span><span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#1A1918;border:1px solid var(--border,#D5D3CE);padding:3px 7px">3 MSI</span></span></dd></div><div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Cash</dt><dd style="margin:0;font-size:15px">$1,620 MXN</dd></div></dl><p style="margin:0;font-size:13px;line-height:1.85;color:#6C6B67;font-style:italic">Avoid water and steam for the first 24 hours. Cash payments receive 10% off. 3 MSI only with participating Mexican credit cards.</p></div></article>
+
+    <article style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:clamp(20px,4vw,64px);padding:clamp(28px,4vw,44px) 0;border-top:1px solid var(--border,#D5D3CE);border-bottom:1px solid var(--border,#D5D3CE)"><div><p style="margin:0 0 12px;font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--nude,#B5A593);letter-spacing:.06em">III</p><h3 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(30px,3.6vw,44px);line-height:1.12">Brow Lamination</h3><p style="margin:8px 0 0;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#6C6B67">Brow lamination &amp; hydration</p></div>
+      <div style="display:flex;flex-direction:column;gap:16px"><p style="margin:0;font-size:15.5px;line-height:1.85;color:#3F3E3B;max-width:52ch">Reshapes and sets the direction of each hair for fuller, well-defined, naturally groomed brows without damaging the hair fiber.</p><p style="margin:0;font-size:13px;line-height:1.85;color:#6C6B67;font-style:italic">Approx. 75 min<br>Results: groomed, defined brows for 4 to 6 weeks.</p><img src="brow-lami-resultado.jpeg" alt="Brow Lamination result" style="align-self:flex-end;width:100%;max-width:260px;aspect-ratio:4/5;object-fit:cover;object-position:45% 50%;display:block;border:1px solid var(--border,#D5D3CE)"></div>
+      <div style="display:flex;flex-direction:column;gap:12px"><dl style="margin:0;display:flex;flex-direction:column;border-bottom:1px solid var(--border,#D5D3CE)"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Card</dt><dd style="margin:0;font-size:15px"><span style="display:flex;align-items:baseline;gap:10px"><span>$1,600 MXN</span><span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#1A1918;border:1px solid var(--border,#D5D3CE);padding:3px 7px">3 MSI</span></span></dd></div><div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-top:1px solid var(--border,#D5D3CE)"><dt style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Cash</dt><dd style="margin:0;font-size:15px">$1,440 MXN</dd></div></dl><p style="margin:0;font-size:13px;line-height:1.85;color:#6C6B67;font-style:italic">Cash payments receive 10% off. 3 MSI only with participating Mexican credit cards.</p></div></article>
+
+
+    <div style="display:flex;justify-content:flex-start;padding-top:clamp(28px,4vw,44px)">
+      <a href="https://wa.me/525532720693?text=Hi%20Elsie%2C%20I%E2%80%99d%20like%20to%20book%20an%20appointment" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 32px;background:#1A1918;color:var(--g,#F2F0ED);font-size:13px;letter-spacing:.16em;text-transform:uppercase" style-hover="background:#4F6270;color:#F2F0ED">Book via WhatsApp →</a>
+    </div>
+  </section>
+
+  <section style="padding:0 0 clamp(64px,10vw,130px)">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;margin:0 0 clamp(20px,3vw,32px)">
+      <p style="margin:0;font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">Also available · Semi-permanent makeup</p>
+      <p style="margin:0;font-size:12.5px;color:#6C6B67">Tap any service (+) for pricing and details</p>
+    </div>
+
+    <details style="border-top:1px solid var(--border,#D5D3CE)">
+      <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+        <span style="display:flex;align-items:baseline;gap:16px">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">IV</span>
+          <span style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(22px,2.4vw,30px);line-height:1.15"><b><b><span style="font-weight: normal;">Lip Blush</span></b></b><br><b>Semipermanent Cosmetics</b></span>
+        </span>
+        <span style="display:flex;align-items:center;gap:14px;flex:none">
+          <span style="font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:#6C6B67;white-space:nowrap">Semi-permanent</span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </span>
+      </summary>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:clamp(18px,3vw,48px);padding:0 0 28px">
+        <p style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:50ch">A treatment that defines the lips and adds freshness and color, lasting 18 to 24 months. My range of pigments lets me tailor every procedure to your own coloring for a natural result.</p>
+        <dl style="margin:0;display:flex;flex-direction:column">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Card</dt>
+            <dd style="margin:0;font-size:15px;display:flex;align-items:baseline;flex-wrap:wrap;justify-content:flex-end;gap:10px"><span>$10,000 MXN</span><span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#1A1918;border:1px solid var(--border,#D5D3CE);padding:3px 7px">3 MSI</span></dd>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Cash</dt>
+            <dd style="margin:0;font-size:15px;display:flex;align-items:baseline;gap:10px"><span>$9,000 MXN</span></dd>
+          </div>
+          <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Duration</dt>
+            <dd style="margin:0;font-size:15px">2.5–3 h</dd>
+          </div>
+          <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Touch-up</dt>
+            <dd style="margin:0;font-size:15px">Included at 6 weeks</dd>
+          </div>
+          <p style="margin:14px 0 0;font-size:13px;line-height:1.8;color:#6C6B67;font-style:italic">Cash payments receive 10% off. 3 MSI: three interest-free monthly payments with participating Mexican credit cards.<br>Includes a design session and shade test before we begin.</p>
+        </dl>
+      </div>
+    </details>
+
+    <details style="border-top:1px solid var(--border,#D5D3CE)">
+      <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+        <span style="display:flex;align-items:baseline;gap:16px">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">V</span>
+          <span style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(22px,2.4vw,30px);line-height:1.15"><b>Microblading &amp; Powder Brows</b></span>
+        </span>
+        <span style="display:flex;align-items:center;gap:14px;flex:none">
+          <span style="font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:#6C6B67;white-space:nowrap">Hair strokes</span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </span>
+      </summary>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:clamp(18px,3vw,48px);padding:0 0 28px">
+        <p style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:50ch">Fine, hair-like strokes that fill sparse areas and correct asymmetry. Designed around your features and pigmented to match your natural brow color.<br><br>Powder Brows: a soft, powdered effect for a more defined, shaded look.<br><br></p>
+        <dl style="margin:0;display:flex;flex-direction:column">
+          <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Card</dt>
+            <dd style="margin:0;font-size:15px;display:flex;align-items:baseline;flex-wrap:wrap;justify-content:flex-end;gap:10px"><span>$10,000 MXN</span><span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#1A1918;border:1px solid var(--border,#D5D3CE);padding:3px 7px">3 MSI</span></dd>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Cash</dt>
+            <dd style="margin:0;font-size:15px;display:flex;align-items:baseline;gap:10px"><span>$9,000 MXN</span></dd>
+          </div>
+          <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Duration</dt>
+            <dd style="margin:0;font-size:15px">2.5 h</dd>
+          </div>
+          <div style="display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--border,#D5D3CE)">
+            <dt style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#6C6B67">Touch-up</dt>
+            <dd style="margin:0;font-size:15px">Included at 6–8 weeks</dd>
+          </div>
+          <p style="margin:14px 0 0;font-size:13px;line-height:1.8;color:#6C6B67;font-style:italic">Cash payments receive 10% off. 3 MSI: three interest-free monthly payments with participating Mexican credit cards.<br>Note: the choice of technique is confirmed during a consultation before your appointment.</p>
+        </dl>
+      </div>
+    </details>
+
+    <div style="border-top:1px solid var(--border,#D5D3CE)"></div>
+  </section>
+
+  <div style="display:flex;flex-direction:column;align-items:center;gap:22px;text-align:center;padding:0 0 clamp(64px,10vw,130px);margin-top:calc(-1 * clamp(24px,5vw,70px))">
+    <p style="margin:0;font-size:15.5px;line-height:1.85;color:#3F3E3B;max-width:52ch;text-wrap:pretty">Every permanent makeup treatment begins with a consultation. I will show you a preview of your ideal design, personalized to the golden-ratio proportions of your face.</p>
+    <a href="https://wa.me/525532720693?text=Hi%20Elsie%2C%20I%E2%80%99d%20like%20to%20book%20a%20permanent%20makeup%20consultation" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 32px;background:#1A1918;color:var(--g,#F2F0ED);font-size:13px;letter-spacing:.16em;text-transform:uppercase" style-hover="background:#4F6270;color:#F2F0ED">Book a consultation →</a>
+  </div>
+
+  <section id="galeria" style="padding:0 0 clamp(64px,10vw,130px);scroll-margin-top:24px">
+    <p style="margin:0 0 clamp(24px,4vw,40px);font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">Gallery <span style="color:#6C6B67;letter-spacing:.1em;text-transform:none;font-size:12.5px"></span></p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:14px">
+      <figure style="margin:0">
+        <div style="position:relative;aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="lash-lift-antes-despues-web.png" alt="Lash lift before and after" style="width:100%;height:100%;object-fit:cover;object-position:50% 45%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+          <span style="position:absolute;top:12px;left:12px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#1A1918;background:rgba(242,240,237,.92);padding:5px 9px">Before</span>
+          <span style="position:absolute;bottom:12px;left:12px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--g,#F2F0ED);background:rgba(26,25,24,.82);padding:5px 9px">After</span>
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Result<span style="color:#1A1918">K-LASH LIFT</span></figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div style="aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="./_-3--mu6ktsn8-2nia.jpeg" alt="Lash detail after a lash lift" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Detail<span style="color:#1A1918">Lashes</span></figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div style="aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="./who-did-it-best-me-or-ai_-__-laminazione-mu6lbdvh-ibs1.jpeg" alt="Korean brow lamination" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Treatment<span style="color:#1A1918">K-Brow Lami</span></figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div style="aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="./untitled-design-2--mu7rjyqr-xcos.jpg" alt="Semi-permanent lip micropigmentation" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Healed lips</figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div style="aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="./gemini_generated_image_96pt2896pt2896pt-mu7i0yc7-f7k3.jpg" alt="Elsie with a client" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Studio<span style="color: rgb(26, 25, 24);">Elsie Space</span></figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div style="aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="./img_8247-mu7h3is5-5fnl.jpg" alt="Brow threading" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Brow threading</figcaption>
+      </figure>
+      <figure style="margin:0">
+        <div style="aspect-ratio:3/4;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+          <img data-gal="" src="cejas-web.jpg" alt="Shaped, defined brows" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block;filter:saturate(.9) contrast(1.02);cursor:zoom-in;transition:transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease" style-hover="transform:scale(1.06);filter:saturate(1) contrast(1.04)">
+        </div>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">Microblading<span style="color: rgb(26, 25, 24);">Hair strokes</span></figcaption>
+      </figure>
+      <figure style="margin:0;display:flex;flex-direction:column">
+        <a href="https://instagram.com/elsie.spacee" target="_blank" rel="noopener" style="position:relative;aspect-ratio:3/4;border:1px solid #1A1918;background:#1A1918;color:var(--g,#F2F0ED);display:flex;flex-direction:column;justify-content:space-between;padding:16px;overflow:hidden" style-hover="background:#2C2A28">
+          <img src="hero-modelo-web.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.42;filter:grayscale(.35)"><span style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,25,24,.72) 0%,rgba(26,25,24,.35) 45%,rgba(26,25,24,.78) 100%)"></span>
+          <span style="position:relative;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#F2F0ED">Follow me</span>
+          <span style="position:relative;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:30px;line-height:1.1">@elsie.spacee →</span>
+        </a>
+        <figcaption style="display:flex;justify-content:space-between;gap:10px;padding-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#6C6B67">More work<span style="color:#1A1918">@elsie.spacee</span></figcaption>
+      </figure>
+    </div>
+    
+  </section>
+
+  <section id="faq" itemscope="" itemtype="https://schema.org/FAQPage" style="border-top:1px solid var(--border,#D5D3CE);padding:clamp(56px,9vw,120px) 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:clamp(32px,6vw,80px);align-items:start;scroll-margin-top:24px">
+    <div>
+      <p style="margin:0 0 22px;font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">FAQ</p>
+      <h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(34px,4.6vw,58px);line-height:1.1;text-wrap:pretty">Common questions <span style="font-style:italic">before your visit</span></h2>
+    </div>
+    <div style="grid-column:span 1;display:flex;flex-direction:column;border-bottom:1px solid var(--border,#D5D3CE)">
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">1.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">Which facial areas do you thread?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Brows, upper lip, chin, cheeks, sideburns, forehead or full face. Choose a single area or combine several in the same appointment.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">2.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">Does threading hurt? Is it suitable for sensitive skin?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">It feels like a quick tug that fades within seconds. With no wax and no chemicals, it is ideal for sensitive or reactive skin and for anyone using retinoids or acids.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">3.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">How often should I get threaded?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">We recommend coming back every 3 to 4 weeks, depending on how fast your hair grows. This keeps your brow shape intact and every area clean.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">4.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">How should I prepare for my lash lift or brow lamination appointment?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Please arrive with your eye and brow area clean and free of makeup, oils or serums. Avoid curling your lashes on the day of your appointment, and pause any acids or strong exfoliants around the brows for 48 hours beforehand.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">5.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">How long do Lash Lift and Brow Lami results last?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">The Korean Lash Lift lasts 6 to 8 weeks and Brow Lami lasts 4 to 6 weeks. To protect the result, avoid water and steam for the first 24 hours.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">6.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">Can I have a lash lift if my lashes are very short or sensitive?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Yes. The Korean lash lift is formulated with deeply nourishing ingredients such as keratin, aloe vera and panthenol, designed to hydrate and lift even the shortest or finest lashes without damage.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">7.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">Which payment methods do you accept?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">We accept cash, bank transfers, and debit and credit cards. Lash Lift and Brow Lami receive 10% off when paid in cash; threading has a single price.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">8.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">Do I need to leave a deposit to book?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Yes. Every appointment is confirmed with a $500 MXN deposit. Without a deposit we cannot hold your spot.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">9.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">What if I need to cancel, reschedule or I am running late?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">Changes and cancellations made less than 24 hours in advance, as well as no-shows, forfeit the deposit. There is a 15-minute grace period.</p>
+        </div>
+      </details>
+      <details itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" style="border-top:1px solid var(--border,#D5D3CE)">
+        <summary style="list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 12px;margin:0 -12px;transition:background .2s ease" style-hover="background:var(--g2,#E9E7E3)">
+          <span style="display:flex;align-items:baseline;gap:16px">
+            <span style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--nude,#B5A593)">10.</span>
+            <span itemprop="name" style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(21px,2.2vw,27px);line-height:1.25;text-wrap:pretty">Where is the studio, and is there parking?</span>
+          </span>
+          <span data-toggle-icon="" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex:none;border:1px solid #4F6270;border-radius:50%;color:#4F6270;font-size:18px;line-height:1;transition:transform .25s ease, background .25s ease">+</span>
+        </summary>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:0 0 26px 31px">
+          <p itemprop="text" style="margin:0;font-size:15px;line-height:1.85;color:#3F3E3B;max-width:64ch">We are located inside Beauty Bar in Lomas de Chapultepec, Mexico City. Street parking is metered and can be paid through the "Mueve Ciudad" app. There is also a public parking lot on the street behind the studio.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section id="contacto" style="border-top:1px solid var(--border,#D5D3CE);padding:clamp(56px,9vw,120px) 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:clamp(32px,6vw,80px);scroll-margin-top:24px">
+    <div>
+      <p style="margin:0 0 22px;font-size:12px;letter-spacing:var(--eyebrow-ls,.22em);text-transform:uppercase;color:var(--ac,#8B9BA6)">Contact</p>
+      <h2 style="margin:0 0 20px;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(34px,4.6vw,58px);line-height:1.1">Ready for <span style="font-style:italic">your appointment?</span></h2>
+      <p style="margin:0 0 32px;font-size:15.5px;line-height:1.85;color:#3F3E3B;max-width:46ch">Reserve your appointment directly via WhatsApp. My current wait time is about 3 weeks, so I recommend booking in advance.</p>
+      <a href="https://wa.me/525532720693?text=Hi%20Elsie%2C%20I%E2%80%99d%20like%20to%20book%20an%20appointment" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 28px;background:#1A1918;color:var(--g,#F2F0ED);font-size:13px;letter-spacing:.16em;text-transform:uppercase" style-hover="background:var(--ac,#8B9BA6);color:#1A1918">Book via WhatsApp →</a>
+    </div>
+    
+    <dl style="margin:0 0 0 auto;width:100%;max-width:440px;align-self:end;display:flex;flex-direction:column">
+      <div style="display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-top:1px solid var(--border,#D5D3CE)">
+        <dt style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#6C6B67">WhatsApp</dt>
+        <dd style="margin:0;font-size:15px"><a href="https://wa.me/525532720693" target="_blank" rel="noopener">+52 55 3272 0693</a></dd>
+      </div>
+      <div style="display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-top:1px solid var(--border,#D5D3CE)">
+        <dt style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#6C6B67">Instagram</dt>
+        <dd style="margin:0;font-size:15px"><a href="https://instagram.com/elsie.spacee" target="_blank" rel="noopener">@elsie.spacee</a></dd>
+      </div>
+      <div style="display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-top:1px solid var(--border,#D5D3CE);border-bottom:1px solid var(--border,#D5D3CE)">
+        <dt style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#6C6B67">Studio</dt>
+        <dd style="margin:0;font-size:15px;text-align:right">Lomas de Chapultepec · Mexico City</dd>
+      </div>
+    </dl><div style="grid-column:1/-1;display:flex;flex-direction:column;gap:10px">
+      <div style="position:relative;aspect-ratio:16/7;min-height:280px;border:1px solid var(--border,#D5D3CE);overflow:hidden;background:var(--g2,#E9E7E3)">
+        <iframe src="https://www.google.com/maps?q=Beauty+Bar+by+Ximena,+Lomas+de+Chapultepec,+CDMX&amp;z=15&amp;output=embed" title="Map: Beauty Bar by Ximena, Lomas de Chapultepec" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(.55) contrast(1.02)"></iframe>
+      </div>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Beauty+Bar+by+Ximena+Lomas+de+Chapultepec+CDMX" target="_blank" rel="noopener" style="align-self:flex-start;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#4F6270">Get directions →</a>
+    </div>
+  </section>
+
+<sc-if value="{{ lbOpen }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ lbClose }}" style="position:fixed;inset:0;z-index:100;background:rgba(26,25,24,.92);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:clamp(16px,4vw,48px);animation:rise .35s ease both">
+      <div role="img" aria-label="{{ lbAlt }}" onClick="{{ stop }}" style="width:min(100%,900px);height:78vh;background-image:{{ lbBg }};background-size:contain;background-position:center;background-repeat:no-repeat"></div>
+      <div onClick="{{ stop }}" style="display:flex;align-items:center;gap:18px;color:#F2F0ED">
+        <button onClick="{{ lbPrev }}" aria-label="Previous" style="width:44px;height:44px;border-radius:50%;border:1px solid rgba(242,240,237,.5);background:transparent;color:#F2F0ED;font-size:18px;cursor:pointer" style-hover="background:rgba(242,240,237,.12)">←</button>
+        <span style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;min-width:180px;text-align:center">{{ lbCaption }} · {{ lbPos }}</span>
+        <button onClick="{{ lbNext }}" aria-label="Next" style="width:44px;height:44px;border-radius:50%;border:1px solid rgba(242,240,237,.5);background:transparent;color:#F2F0ED;font-size:18px;cursor:pointer" style-hover="background:rgba(242,240,237,.12)">→</button>
+      </div>
+      <button onClick="{{ lbClose }}" aria-label="Close" style="position:absolute;top:18px;right:18px;width:44px;height:44px;border-radius:50%;border:1px solid rgba(242,240,237,.5);background:transparent;color:#F2F0ED;font-size:18px;cursor:pointer">×</button>
+    </div>
+  </sc-if>
+
+  <footer style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding:28px 0 44px;border-top:1px solid var(--border,#D5D3CE)">
+    <span style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:20px;letter-spacing:.14em;text-transform:uppercase">Elsie Space</span>
+    <span style="font-size:12px;letter-spacing:.08em;color:#6C6B67">© 2026 · Lomas de Chapultepec, Mexico City · All rights reserved</span>
+    <span style="flex-basis:100%;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6C6B67;text-align:center"><br></span>
+  </footer>
+
+</sc-if>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;temperatura&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Hueso&quot;,&quot;Cálido&quot;,&quot;Frío&quot;],&quot;default&quot;:&quot;Hueso&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Atmósfera&quot;},&quot;ritmo&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Sereno&quot;,&quot;Editorial&quot;,&quot;Dramático&quot;],&quot;default&quot;:&quot;Editorial&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Atmósfera&quot;},&quot;textoEnMovimiento&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Texto en movimiento&quot;},&quot;estiloMovimiento&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Marquesina&quot;,&quot;Deriva suave&quot;],&quot;default&quot;:&quot;Marquesina&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Texto en movimiento&quot;},&quot;velocidadTexto&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:43,&quot;min&quot;:8,&quot;max&quot;:60,&quot;step&quot;:1,&quot;unit&quot;:&quot;s&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Texto en movimiento&quot;},&quot;textoMovil&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Depilación facial con hilo · Korean Lash Lift · Diseño de cejas&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Texto en movimiento&quot;},&quot;textoMovilIngles&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Facial Threading · Korean Lash Lift · Brow Design&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Texto en movimiento&quot;}}">class Component extends DCLogic {
+  themes = {
+    "Hueso": { g:"#F2F0ED", g2:"#E9E7E3", border:"#D5D3CE", ac:"#8B9BA6", nude:"#B5A593" },
+    "Cálido": { g:"#F5EFE7", g2:"#EDE3D7", border:"#DCCFC0", ac:"#B08A6A", nude:"#C2A184" },
+    "Frío": { g:"#EEF0F1", g2:"#E2E6E8", border:"#CDD4D7", ac:"#6F8794", nude:"#9AA7AE" }
+  };
+  rhythms = {
+    "Sereno":    { hero:"clamp(56px,11vw,140px)", tracking:"0em",    ls:".16em" },
+    "Editorial": { hero:"clamp(72px,17vw,220px)", tracking:"-.03em", ls:".22em" },
+    "Dramático": { hero:"clamp(84px,22vw,300px)", tracking:"-.055em", ls:".34em" }
+  };
+  applyVars() {
+    const t = this.themes[this.props.temperatura] || this.themes["Hueso"];
+    const r = this.rhythms[this.props.ritmo] || this.rhythms["Editorial"];
+    const s = document.documentElement.style;
+    s.setProperty("--g", t.g);
+    s.setProperty("--g2", t.g2);
+    s.setProperty("--border", t.border);
+    s.setProperty("--ac", t.ac);
+    s.setProperty("--nude", t.nude);
+    s.setProperty("--hero", r.hero);
+    s.setProperty("--tracking", r.tracking);
+    s.setProperty("--eyebrow-ls", r.ls);
+    document.documentElement.lang = this.state.lang;
+  }
+  state = { lb: -1, lang: this.initLang() };
+  initLang() {
+    try { const v = localStorage.getItem('elsie-lang'); if (v === 'es' || v === 'en') return v; } catch (e) {}
+    const l = (navigator.languages && navigator.languages[0]) || navigator.language || 'es';
+    return /^es/i.test(l) ? 'es' : 'en';
+  }
+  setLang(l) {
+    try { localStorage.setItem('elsie-lang', l); } catch (e) {}
+    this.setState({ lang: l, lb: -1 });
+  }
+  galItems() {
+    return Array.from(document.querySelectorAll('#galeria img[data-gal]')).map(img => {
+      const cap = img.closest('figure')?.querySelector('figcaption');
+      return { src: img.getAttribute('src'), alt: img.alt, caption: cap ? [...cap.childNodes].map(n => n.textContent.trim()).filter(Boolean).join(' · ') : img.alt };
+    });
+  }
+  componentDidMount() {
+    this.applyVars();
+    this.fixVideos();
+    this._click = e => {
+      const img = e.target.closest && e.target.closest('#galeria img[data-gal]');
+      if (!img) return;
+      const list = Array.from(document.querySelectorAll('#galeria img[data-gal]'));
+      this.setState({ lb: list.indexOf(img) });
+    };
+    this._key = e => {
+      if (this.state.lb < 0) return;
+      if (e.key === 'Escape') this.setState({ lb: -1 });
+      if (e.key === 'ArrowRight') this.step(1);
+      if (e.key === 'ArrowLeft') this.step(-1);
+    };
+    document.addEventListener('click', this._click);
+    document.addEventListener('keydown', this._key);
+  }
+  componentWillUnmount() {
+    document.removeEventListener('click', this._click);
+    document.removeEventListener('keydown', this._key);
+  }
+  step(d) {
+    const n = this.galItems().length;
+    if (n) this.setState(s => ({ lb: (s.lb + d + n) % n }));
+  }
+  fixVideos() { document.querySelectorAll('video[src$="video-hilo.mp4"]').forEach(v => { v.muted = true; v.loop = true; v.playsInline = true; if (v.paused) v.play().catch(() => {}); }); }
+  componentDidUpdate() { this.applyVars(); this.fixVideos(); }
+  renderVals() {
+    const on = this.props.textoEnMovimiento ?? true;
+    const drift = (this.props.estiloMovimiento || "Marquesina") === "Deriva suave";
+    const texto = this.props.textoMovil || "Depilación facial con hilo · Korean Lash Lift · Diseño de cejas";
+    const items = this.state.lb >= 0 ? this.galItems() : [];
+    const cur = items[this.state.lb] || {};
+    return {
+      lbOpen: this.state.lb >= 0 && !!cur.src,
+      lbBg: cur.src ? 'url("' + cur.src + '")' : 'none', lbAlt: cur.alt, lbCaption: cur.caption,
+      lbPos: (this.state.lb + 1) + ' / ' + items.length,
+      lbClose: () => this.setState({ lb: -1 }),
+      lbPrev: e => { e.stopPropagation(); this.step(-1); },
+      lbNext: e => { e.stopPropagation(); this.step(1); },
+      stop: e => e.stopPropagation(),
+      isEs: this.state.lang !== 'en',
+      isEn: this.state.lang === 'en',
+      setEs: () => this.setLang('es'),
+      setEn: () => this.setLang('en'),
+      textoMovilEn: this.props.textoMovilIngles || "Facial Threading · Korean Lash Lift · Brow Design",
+      movimiento: on,
+      taglineEstatica: !on,
+      textoMovil: texto,
+      animStyle: (drift ? "drift" : "marquee") + " " + (this.props.velocidadTexto ?? 26) + "s linear infinite"
+    };
+  }
+}</script>
+</body>
+</html>
